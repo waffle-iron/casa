@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,16 +12,19 @@
 <body>
 <section id="wrapper" class="row">
 
-		<section class="user-action">
-			<ul class="list-inline text-right">
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="#"> <span class="fa fa-key"></span>&nbsp;Log in </a></li>
+		<header class="navbar-static-top">
+
+			<ul class="list-inline">
+				<li class="text-left">Report A Bug</li>
+				<ul class=" list-inline pull-right"><li ><a href="register"><span class="fa fa-user-plus"></span>&nbsp;Register</a></li>
+								<li ><a href="login"><span class="fa fa-sign-in"></span>&nbsp;Log in</a></li></ul>
+		
 			</ul>
-		</section><!-- /.user-action -->
+		</header><!-- /.user-action -->
 
 
 
-	<nav class="navbar">
+	<nav class="navbar "  >
 	 	<div class="navbar-header">
 	 		<div class="navbar-brand">
 	 			Casa Ghana
@@ -36,8 +40,8 @@
 
 	 	<div class="collapse navbar-collapse col-md-12 text-center">
 	 		<ul class="navbar-nav nav">
-	 			<li><a href="#">Home</a></li>
-	 			<li><a href="#">Listings</a></li>
+	 			<li><a href="index">Home</a></li>
+	 			<li><a href="listing">Listings</a></li>
 	 			<li><a href="#">News</a></li>
 	 			<li><a href="#">Contact</a></li>
 	 		</ul>
