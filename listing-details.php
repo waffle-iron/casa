@@ -42,7 +42,7 @@
 
 </section>
 
-			<?php include 'search.php' ?>
+			<?php //include 'search.php' ?>
 
 
 </section>

@@ -1,26 +1,68 @@
+/*body*/
+body{
+	margin:0;
+}
 
+body a{
+	text-decoration: none;
+	
+}
+
+header a:hover, .services a:hover{
+	text-decoration: none;
+	color: #f45;
+
+}
 /*override*/
 .row{
 	margin:0;
 }
 
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	list-style: none;
+}
+
+.jumbotron{
+	background: #445;
+	color: #fafafa;
+	min-height: 300px;
+	margin-top: 0;
+}
+/*error*/
+.error{
+	margin-left:-15px;
+	margin-right:-15px;
+	margin-top: 0;
+}
+
+
+.error p{
+	padding: 2%;
+	text-align: center;
+}
+
 
 /*personal*/
 header{
-	background: #445;
+	background: #fafafa;
 	padding: 0.5em;
+	color:#111;
 }
 
 header a{
 	text-decoration: none;
-	color: #f1f1f1;
+	color: #111;
 }
 
 /*navigation*/
 .navbar{
-	background: #1ad  ;
+	background: #c93   ;
 	border-radius: 0;
-
+margin-bottom: 0;
 }
 
 .nav a{
@@ -30,14 +72,14 @@ header a{
 }
 
 .nav>li>a:focus, .nav>li>a:hover{
-	background:#f45 ;
+	background:#445 ;
 }
 
 /*carousel*/
 #myCarousel{
-height: 300px;
+min-height: 300px;
 background: #445;
-margin-top: -20px;
+margin-top: 0px;
 }
 
 
@@ -53,3 +95,31 @@ margin-top: -20px;
 	padding: 1%
 }
 
+
+/*grids*/
+.estate-preview{
+	width: 300px;
+	height: 200px;
+}
+
+
+/*forms*/
+
+#register-form,#login-form{
+	margin-top: 5%;
+}
+
+#user-profile{
+	margin-top: 5%;
+}
+
+label{
+	margin: 2%;
+}
+
+
+/*jumbotron*/
+.jumbo-text{
+	margin-left: 10%;
+	margin-right: 5%;
+}

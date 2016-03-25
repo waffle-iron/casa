@@ -10,7 +10,7 @@
 
 	</head>
 <body>
-<div class="container">
+<div class="container" id="register-form">
 		<div class="user-form property-single col-sm-12 col-md-4 col-md-offset-4">
 <div class="action-icon text-center"><i class="fa fa-user-plus fa-lg fa-4x"></i></div>
 <div class="">
