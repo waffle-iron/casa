@@ -1,4 +1,17 @@
+<footer>
+	
+	<section class="col-md-12">
 
+		<section class="col-md-4">
+			&copy; <?php echo date ('Y') ?>
+		</section>
+
+		<section class="col-md-4"></section>
+
+		<section class="col-md-4"></section>
+
+	</section>
+</footer>
 
 </section><!-- /#wrapper -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

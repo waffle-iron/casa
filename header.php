@@ -19,13 +19,14 @@
 		<header class="navbar-static-top">
 
 			<ul class="list-inline">
-				<li class="text-left">Report A Bug</li>
+				<li class="text-left hidden-xs">Report A Bug</li>
 				
 				<ul class=" list-inline pull-right">
 <?php if(!isset($user)) : ?>
 				<li><a href="register"><span class="fa fa-user-plus"></span>&nbsp;Register</a></li>
 				<li ><a href="login"><span class="fa fa-sign-in"></span>&nbsp;Log in</a></li></ul>
 		<?php else: ?>
+				<li><a href="post"><span class="fa fa-list"></span> Post a listing </a></li>
 	<li><a href="user-profile"><span class="fa fa-user"></span>&nbsp;  <?php echo $row['first_name'] ?> </a></li>
 	<li><a data-toggle="modal" data-target="#logout" href="#"><span class="fa fa-sign-out"></span>&nbsp;Log out</a></li>
 		<?php endif; ?>

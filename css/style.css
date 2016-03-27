@@ -8,6 +8,10 @@ body a{
 	
 }
 
+header ul{
+	
+}
+
 header a:hover, .services a:hover{
 	text-decoration: none;
 	color: #f45;
@@ -26,7 +30,7 @@ header a:hover, .services a:hover{
 	list-style: none;
 }
 
-.jumbotron{
+.focus{
 	background: #445;
 	color: #fafafa;
 	min-height: 300px;
@@ -73,6 +77,7 @@ margin-bottom: 0;
 
 .nav>li>a:focus, .nav>li>a:hover{
 	background:#445 ;
+	text-decoration: none;
 }
 
 /*carousel*/
@@ -118,8 +123,15 @@ label{
 }
 
 
+
 /*jumbotron*/
 .jumbo-text{
 	margin-left: 10%;
 	margin-right: 5%;
+}
+
+
+/*footer*/
+footer{
+	background: #445;
 }
