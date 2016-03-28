@@ -27,4 +27,6 @@ header('location:index.php');
 
 };
 
+unset($_POST);
+
  ?>

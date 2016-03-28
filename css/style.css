@@ -69,6 +69,13 @@ header a{
 margin-bottom: 0;
 }
 
+.navbar-toggle{
+	border:2px solid #fafafa;
+}
+.icon-bar{
+	background: #fafafa;
+}
+
 .nav a{
 	color: #fafafa ;
 	font-weight: bolder;
@@ -114,12 +121,18 @@ margin-top: 0px;
 	margin-top: 5%;
 }
 
+.form-group{
+	padding: 2%;
+	margin-top: 4%;
+}
+
 #user-profile{
 	margin-top: 5%;
 }
 
 label{
 	margin: 2%;
+	margin-top: 8%;
 }
 
 
@@ -134,4 +147,30 @@ label{
 /*footer*/
 footer{
 	background: #445;
+	clear:both;
+	padding: 2%;
+	color: #fafafa;
+		
+	background: #38424b;
+	color: #fafafa;
+		height: 130px;
+	font-weight: bold;
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	margin-top:3%;
+
+z-index:999999;
+
+}
+
+
+footer a{
+	color: #fafafa;
+
+}
+
+footer a:hover , header a:hover{
+	color: #ee3853;
+	text-decoration: none;
 }

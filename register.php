@@ -16,7 +16,7 @@
 <div class="">
 	<h3 class="text-center">Glad you want to join the community</h3>
 </div>
-			<form action="<?php $_SERVER['PHP_SELF']?>" method="POST" >
+			<form  class="" role="" action="<?php $_SERVER['PHP_SELF']?>" method="POST" >
 					<div class="form-group col-md-6">
 					<label>First Name</label>
 					<input type="text" class="form-control" autofocus name="fname" autocomplete="off" placeholder="First Name" required>
