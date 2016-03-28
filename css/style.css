@@ -94,6 +94,13 @@ background: #445;
 margin-top: 0px;
 }
 
+/*mini map*/
+
+.mini-map li:before{
+font-family: fontAwesome;
+	content:'\f18e';
+}
+
 
 
 .carousel-caption{
@@ -117,13 +124,13 @@ margin-top: 0px;
 
 /*forms*/
 
-#register-form,#login-form{
+#register-form,#login-form,#recover-form{
 	margin-top: 5%;
 }
 
 .form-group{
-	padding: 2%;
-	margin-top: 4%;
+	
+	
 }
 
 #user-profile{
@@ -132,7 +139,7 @@ margin-top: 0px;
 
 label{
 	margin: 2%;
-	margin-top: 8%;
+	
 }
 
 

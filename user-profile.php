@@ -6,8 +6,23 @@
 
 <section class="row jumbotron focus">
 	
-			
+				<div class="containter">
+				<div class="jumbo-text">
+					<h1>Your Profile</h1>
+					<p>
+						Edit your information from this page.
+					</p>
+				</div>
+			</div>
 
+</section>
+
+<br>
+<section class="container mini-map">
+	<ul class="list-inline">
+		<li><a href="user-profile"> My Profile</a></li>
+		<li><a href="user-listings"> My Listing </a></li>
+	</ul>
 </section>
 
 <section class="container">
@@ -47,4 +62,6 @@
 
 <section class="col-md-2"></section><!--  -->	
 
+
+</section>
 <?php include 'footer.php'; ?>

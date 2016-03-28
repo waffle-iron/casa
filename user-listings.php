@@ -19,6 +19,13 @@
 
 
 <section class="row">
+<br>
+<section class="container mini-map">
+	<ul class="list-inline">
+		<li><a href="user-profile"> My Profile</a></li>
+		<li><a href="user-listings"> My Listing </a></li>
+	</ul>
+</section>
 
 		<section class="services col-md-8">
 
@@ -40,8 +47,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp;On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class="pull-right"> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>
@@ -61,8 +68,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp;On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class=""> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>
@@ -80,8 +87,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp;On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class="pull-right"> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>
@@ -101,8 +108,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp;On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class=""> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>
@@ -120,8 +127,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp;On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class="pull-right"> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>
@@ -141,8 +148,8 @@
 							
 								<li>
 									 <ul class="list-inline">
-											<li><span class="fa fa-check"></span>&nbsp; On the Market</li>
-											<li class=""><span class="fa fa-money"></span> 4000$ </li>
+											<li><span>On The Market</span></li>
+											<li class=""> 4000$ </li>
 										</ul> 
 								</li>
 							</ul>

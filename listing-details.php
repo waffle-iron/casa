@@ -24,9 +24,6 @@
 
 
 			<section class="col-md-12">
-				<section class="jumbotron">
-					
-				</section>
 				
 				<section class="description">
 					<article>
