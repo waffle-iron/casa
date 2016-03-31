@@ -6,7 +6,9 @@
 
 <div class="carousel-inner"> 
 
-<div class="item active"> <img src="" alt="First slide"> 
+<div class="item active">
+
+
 <div class="carousel-caption">
 	<h3>Welcome To Casa Ghana</h3>
 	<article>Buy, Sell or Rent a real estate.</article>
