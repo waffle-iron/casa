@@ -181,3 +181,31 @@ footer a:hover , header a:hover{
 	color: #ee3853;
 	text-decoration: none;
 }
+
+/*listings*/
+
+.services a, .listing-detail a{
+	color: #445;
+}
+
+.services a:hover,.listing-detail a:hover{
+	color: #f45;
+}
+
+.listing-detail{
+	margin-top:4% ;
+}
+
+.listing{
+	margin-bottom: 3%;	
+}
+
+.listing .caption{
+	height: 200px;
+}
+
+
+/*agents*/
+.agent-info{
+	margin-top: 2%;
+}

@@ -1,5 +1,4 @@
 <?php include 'header.php'; ?>
-
 <section class="row">
 <div id="myCarousel" class="carousel slide"> <!-- Carousel indicators --> <ol class="carousel-indicators"> <li data-target="#myCarousel" data-slide-to="0" class="active"></li> <li data-target="#myCarousel" data-slide-to="1"></li> <li data-target="#myCarousel" data-slide-to="2"></li> </ol> <!-- Carousel items --> 
 
@@ -20,21 +19,10 @@
 
 <section class="row">
 
-	<section class="services col-md-8">
+	<section class="listing-detail col-md-8">
 
 
-			<section class="col-md-12">
-				
-				<section class="description">
-					<article>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aliquid molestiae magnam, vero illo nam quis molestias. Reprehenderit fugiat repudiandae ratione doloribus magnam necessitatibus, saepe minus animi quo similique consectetur soluta possimus asperiores laborum.
-					</article>
-				</section>
-				
-				<section class="map"></section>	
-
-				<section class="agent"></section>
-			</section>
+		<?php include 'functions/listing-detail-sc.php'; ?>
 
 
 </section>
