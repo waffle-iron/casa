@@ -6,7 +6,7 @@
 				<div class="jumbo-text">
 					<h1>About Casa Ghana</h1>
 					<p>
-						Learn about our goals  and what we are offering you as services.
+						Learn about our goals are and what we are offering you as services.
 					</p>
 				</div>
 			</div>

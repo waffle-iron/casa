@@ -12,29 +12,30 @@
 <body class="becky">
 <section class="container" id="recover-form">
 		<section class=" col-sm-12 col-md-4 col-md-offset-4">
-<section class="action-icon text-center"><i class="fa fa-user-plus fa-lg fa-4x"></i></section>
+<section class="action-icon text-center"><i class="fa fa-key fa-lg fa-4x"></i></section>
 <section class="">
-	<h3 class="text-center">Let's help you recover your account.</h3>
+	<h3 class="text-center">Change your password</h3>
 </section>
-	<form class="form" role="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+	<form class="" role="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+				
 					<div class="form-group">
-						<input type="text" name="email" class="form-control" placeholder="example@example.com" required>
-
+			     	<input type="password" class="form-control" autofocus name="password" placeholder="New Password" required>
 					</div>
+					
+					<div class="form-group">
+					<input type="password" name="password-confirm" class="form-control" placeholder="Confirm Password" required/>
+            		</div>
 
 					<div class="form-group">
-						<button class="btn btn-primary btn-block"><i class="fa fa-sign-in"></i> Recover</button>
+						<button class="btn btn-primary btn-block" type="submit"><i class="fa fa-save"></i>&nbsp;Save</button>
 					</div>
 
 					<p><ul class="list-inline text-center">
-							<p><ul class="list-inline text-center">
-						<li>	<a href="login"><a href="login"><i class="fa fa-sign-in"></i>&nbsp;Log In?</a></li>
-						<!-- <li><a href="recover"><i class="fa fa-question"></i>&nbsp;Lost Password</a></li> -->
+						<li>	<a href="register"><i class="fa fa-sign-in"></i>&nbsp;Open Account</a></li>
+						<li><a href="login"><i class="fa fa-sign-in"></i>&nbsp;Login</a></li>
 						<li><a href="index"><i class="fa fa-home"></i>&nbsp;Home</a></li></ul>
-					</p>
 				</p>
 		</form>
-
 			
 		</section>
 	</section>

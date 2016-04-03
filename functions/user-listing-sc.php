@@ -59,7 +59,7 @@ while($row=mysqli_fetch_array($result)){
 ?>
 
 	<section class="col-md-6 listing">
-						<img src="..." alt="" class="img-responsive img-thumbnail estate-preview">
+						<?php   include 'preview.php'; ?>
 						<article class="caption">
 							<ul>
 									<li><h3><a href="listing-details?id=<?php echo $row['property_id']?>"> <?php echo $row['title'];?> </a></h3></li>	

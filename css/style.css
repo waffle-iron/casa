@@ -8,9 +8,30 @@ body a{
 	
 }
 
+.becky{
+
+
+	background: url('../images/hero.jpg');
+background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+height: auto;
+  min-height: 100%;
+}
+
+a{
+	color: #445;
+}
+
+a:hover{
+	color: #f45;
+	text-decoration: none;
+}
 header ul{
 	
 }
+
 
 header a:hover, .services a:hover{
 	text-decoration: none;
@@ -126,8 +147,18 @@ font-family: fontAwesome;
 
 #register-form,#login-form,#recover-form{
 	margin-top: 5%;
+	margin-bottom: 4%;
+
 }
 
+
+#register-form  .col-sm-12 ,#login-form  .col-sm-12 ,#recover-form .col-sm-12 {
+	
+	
+	box-shadow: 4px 6px 8px #38424b;
+	background: #fafafa;
+	padding: 2%;
+}
 .form-group{
 	
 	

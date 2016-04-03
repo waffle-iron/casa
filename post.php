@@ -1,7 +1,14 @@
 <?php include 'header.php'; ?>
 
 <section class="row jumbotron focus">
-	
+			<div class="containter">
+				<div class="jumbo-text">
+					<h1>List Your Properties </h1>
+					<p>
+						Fill up the form and list your property
+					</p>
+				</div>
+			</div>
 			
 
 </section>
@@ -29,7 +36,7 @@
 		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" name="contact" placeholder=""></section>
 	</section>
 	<section class="form-group">
-		<section class="col-md-6"><label>Title</label><input type="text" class="form-control" name="title" placeholder=""></section>
+		<section class="col-md-6"><label>Title</label><input type="text" class="form-control" name="title" placeholder="Give your listing a title"></section>
 		<section class="col-md-6"><label>Property Status</label>
 				      <select name="type" class="form-control" required>
               <option select="" value="">Rent / Sale or Share</option>
@@ -48,7 +55,7 @@
 	</section>
 	<section class="form-group">
 		<section class="col-md-6"><label>Price</label>
-		<input type="text" class="form-control" name="price" placeholder=""></section>
+		<input type="text" class="form-control" name="price" placeholder="what's your price?"></section>
 		
 
 		<section class="col-md-6"><label>Suburb</label>
@@ -71,11 +78,11 @@
 
 	<section class="form-group">
 		<section class="col-md-4"><label>Bedrooms</label>
-		<input type="text" class="form-control" name="bedroom" placeholder=""></section>
+		<input type="text" class="form-control" name="bedroom" placeholder="i.e: 3 for 3 bedrooms"></section>
 		
 
-		<section class="col-md-4"><label>Garage size</label><input type="text" class="form-control" name="gsize" placeholder=""></section>
-		<section class="col-md-4"><label>Land Size</label><input type="text" class="form-control" name="size" placeholder=""></section>
+		<section class="col-md-4"><label>Garage size</label><input type="text" class="form-control" name="gsize" placeholder="i.e: 2 for 2 cars"></section>
+		<section class="col-md-4"><label>Land Size</label><input type="text" class="form-control" name="size" placeholder="i.e: 3456 ft squares"></section>
 	</section>
 
 	<section class="form-group">

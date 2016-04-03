@@ -13,7 +13,7 @@
 				<section class="description">
 					<article>
 						<ul class="list-inline">
-						      <li class=""><i class="fa fa-home"></i>&nbsp;&nbsp;Size</li>
+						      <li class=""><i class="fa fa-home"></i>&nbsp;&nbsp;<?php echo $row['size'] ?>&nbsp; ft sq.</li>
                      <li class=""><i class="fa fa-automobile"></i>&nbsp;&nbsp;<?php echo $row['gsize'] ?>&nbsp; Cars</li>
                      <li class=""><i class="fa fa-bed"></i>&nbsp;&nbsp;<?php echo $row['bedrooms']?>&nbsp; Bedroom(s)</li>
 						</ul>
@@ -32,7 +32,7 @@
 					<ul class="list-inline">
 						  <li> <i class="fa fa-money"></i> <?php echo $row['price'] ?></li>
                    <li>  <i class="fa fa-phone"></i> <?php echo $row['contact'] ?></li>
-                   <li><i class="fa fa-envelope"></i> <a href="mailto:'.$row['email'].'">  <?php echo $row['email'] ?></a></li>
+                   <li><i class="fa fa-envelope"></i> <a href="mailto:'<?php echo $row['email']?>'">  <?php echo $row['email'] ?></a></li>
 					</ul>
 				</section>
 			</section>

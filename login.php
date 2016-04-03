@@ -9,7 +9,7 @@
 		<title>Casa Ghana</title>
 
 	</head>
-<body>
+<body  class="becky">
 <!-- includes -->
 <?php include'functions/dependencies.php' ?>
 <!-- /includes -->
