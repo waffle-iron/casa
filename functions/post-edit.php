@@ -37,7 +37,7 @@ if($target_path==="images/"){
  
 
     $query2="UPDATE  properties SET owner='$name', email='$email',contact='$contact', title='$title',location='$location',price='$price',
-    description='$description','property_type='$type',bedrooms='$bedroom',gsize='$gsize',size='$size' WHERE email='$user'";
+    description='$description',property_type='$type',bedrooms='$bedroom',gsize='$gsize', size='$size' where email='$user'";
 
     $result2=mysqli_query($dbc,$query2);
 if($result2){
