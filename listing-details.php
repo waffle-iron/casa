@@ -18,7 +18,7 @@
 
 
 <section class="row">
-
+<?php include 'functions/discard.php'; ?>
 	<section class="listing-detail col-md-8">
 
 

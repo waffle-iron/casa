@@ -19,6 +19,7 @@
 
 
 <section class="row">
+<?php include 'functions/discard.php'; ?>
 <br>
 <section class="container mini-map">
 	<ul class="list-inline">

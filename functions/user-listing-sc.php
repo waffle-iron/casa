@@ -63,7 +63,7 @@ while($row=mysqli_fetch_array($result)){
 						<article class="caption">
 							<ul>
 									<li><h3><a href="listing-details?id=<?php echo $row['property_id']?>"> <?php echo $row['title'];?> </a>
-   &nbsp; <?php if(isset($user) && $user===$row['email']): ?> <a href="post-edit?id=<?php echo $row['property_id']?>"><span class="fa fa-edit small">edit</span> </a><?php endif; ?>
+ &nbsp; <?php if(isset($user) && $user===$row['email']): ?> <a href="post-edit?id=<?php echo $row['property_id']?>"><span class="fa fa-edit small"></span> </a> &nbsp; <a href="" data-toggle="modal" data-target="#discard"><span class="fa fa-trash small"></span></a><?php endif; ?>
                   </h3>
  
                   </li>	
