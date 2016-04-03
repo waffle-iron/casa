@@ -18,6 +18,9 @@
 				<ul class="list-inline">
 			<li><a href="mailto:info@casaghana.com"><i class="fa fa-envelope" style="color:#ee3853"></i>&nbsp;info@casaghana.com</a> </li>
 			<li> <i class="fa fa-phone" style="color:#ee3853"></i>&nbsp;054 092 0984</li>
+			<li><a href="#"  target="_blank"><span class="fa fa-facebook"></span></a></li>
+			<li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
+			
 			</ul>
 		</section>
 	</section>
@@ -32,9 +35,6 @@
 
 
 </section>
-<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.11.2.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
 
 </body>
 </html>

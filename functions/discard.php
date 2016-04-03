@@ -12,6 +12,8 @@ $query="DELETE from properties where  property_id='$id'";
 
 $result=mysqli_query($dbc,$query);
 
+header('location:user-profile');
+
 
 }
 

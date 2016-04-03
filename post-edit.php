@@ -17,9 +17,11 @@
 
 <section class="alert">
 	    
-        <?php if($_POST){
-        	include 'functions/post.php';
-        	} ?>
+        <?php 
+
+        
+        	include 'functions/post-edit.php';
+        	?>
    
 </section>
 
@@ -28,15 +30,19 @@
 	<section class="form-group">
 			<section class="col-md-12">
 	<label>Name</label>
-	  <input type="text" name="name" value="<?php echo $row['first_name'] ?>" placeholder="Posting As?" class="form-control" required>
+	  <input type="text" name="name" value="<?php echo $row['first_name'].'&nbsp;'. $row['last_name'] ?> " placeholder="Posting As?"
+	   class="form-control" required>
 			</section>
 	</section>
 	<section class="form-group">
-		<section class="col-md-6"><label>Email</label><input type="text" class="form-control" name="email" placeholder=""></section>
-		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" name="contact" placeholder=""></section>
+		<section class="col-md-6"><label>Email</label><input type="text" value="<?php echo $row['email'] ?> " class="form-control"
+		 name="email"  placeholder=""></section>
+		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" value="<?php echo $row['contact'] ?> " 
+		name="contact" placeholder=""></section>
 	</section>
 	<section class="form-group">
-		<section class="col-md-6"><label>Title</label><input type="text" class="form-control" name="title" placeholder="Give your listing a title"></section>
+		<section class="col-md-6"><label>Title</label><input type="text" class="form-control" value="<?php echo $row2['title']; ?>" 
+		name="title" placeholder="Give your listing a title"></section>
 		<section class="col-md-6"><label>Property Status</label>
 				      <select name="type" class="form-control" required>
               <option select="" value="">Rent / Sale or Share</option>
@@ -55,7 +61,7 @@
 	</section>
 	<section class="form-group">
 		<section class="col-md-6"><label>Price</label>
-		<input type="text" class="form-control" name="price" placeholder="what's your price?"></section>
+		<input type="text" class="form-control" name="price"  value="<?php echo $row2['price'] ?>" placeholder="what's your price?"></section>
 		
 
 		<section class="col-md-6"><label>Suburb</label>
@@ -78,11 +84,11 @@
 
 	<section class="form-group">
 		<section class="col-md-4"><label>Bedrooms</label>
-		<input type="text" class="form-control" name="bedroom" placeholder="i.e: 3 for 3 bedrooms"></section>
+		<input type="text" class="form-control" name="bedroom" value="<?php echo $row2['bedrooms'] ?>"placeholder="i.e: 3 for 3 bedrooms"></section>
 		
 
-		<section class="col-md-4"><label>Garage size</label><input type="text" class="form-control" name="gsize" placeholder="i.e: 2 for 2 cars"></section>
-		<section class="col-md-4"><label>Land Size</label><input type="text" class="form-control" name="size" placeholder="i.e: 3456 ft squares"></section>
+		<section class="col-md-4"><label>Garage size</label><input type="text" class="form-control" value="<?php echo $row2['gsize'] ?>" name="gsize" placeholder="i.e: 2 for 2 cars"></section>
+		<section class="col-md-4"><label>Land Size</label><input type="text" class="form-control" value="<?php echo $row2['size'] ?>" name="size" placeholder="i.e: 3456 ft squares"></section>
 	</section>
 
 	<section class="form-group">
@@ -97,7 +103,8 @@
 
 	<section class="form-group">
 		<section class="col-md-12"><label>Additional Descriptions</label>
-		 <textarea name="description" rows="8" cols="40" class="form-control" required></textarea>
+		 <textarea name="description"  rows="8" cols="40" class="form-control" required><?php echo $row2['description'] ?>
+		 </textarea>
             
 	</section> </section>
 

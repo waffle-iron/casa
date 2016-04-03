@@ -16,7 +16,7 @@
 <section class="container">
 
 <section class="alert">
-	    
+	    <?php include 'functions/redirect.php'; ?>
         <?php if($_POST){
         	include 'functions/post.php';
         	} ?>
