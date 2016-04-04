@@ -10,7 +10,8 @@
 
  	<section class="col-md-12">
 				<h1 class="page-header"> <?php echo $row['title']; ?> | <span class="text-danger"><?php echo $row['price'] ?>$</span>
- &nbsp; <?php if(isset($user) && $user===$row['email']): ?> <a href="post-edit?id=<?php echo $row['property_id']?>"><span class="fa fa-edit small"></span> </a> &nbsp; <a href="" data-toggle="modal" data-target="#discard"><span class="fa fa-trash small"></span></a><?php endif; ?>
+ &nbsp; <?php  if(isset($user) )  : if( $user==$row['email'] && $id=$row['property_id'])  ?> 
+ <a href="post-edit?id=<?php echo $row['property_id']?>"><span class="fa fa-edit small"></span> </a> &nbsp; <a href="" data-toggle="modal" data-target="#discard"><span class="fa fa-trash small"></span></a><?php endif;  ?>
 				</h1>
 				<section class="description">
 					<article>

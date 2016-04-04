@@ -30,7 +30,7 @@
 	<section class="form-group">
 			<section class="col-md-12">
 	<label>Name</label>
-	  <input type="text" name="name" value="<?php echo $row['first_name'].'&nbsp;'. $row['last_name'] ?> " placeholder="Posting As?"
+	  <input type="text" name="name" value="<?php echo $row['first_name'] ?> " placeholder="Posting As?"
 	   class="form-control" required>
 			</section>
 	</section>
