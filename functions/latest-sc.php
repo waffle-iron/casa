@@ -1,3 +1,4 @@
+
 <?php 
 
 
@@ -7,6 +8,7 @@ $rows=mysqli_num_rows($result);
 if($rows==0){
   
 }else{
+	echo '<h3 class="page-header">Latest Estates</h3>';
   while($row=mysqli_fetch_array($result)){
 ?>
 

@@ -48,7 +48,7 @@
 			</section>
 
 			<section class="col-md-12">
-				<h3 class="page-header">Latest Estates</h3>
+				
 
 				<?php include 'functions/latest-sc.php'; ?>
 			</section>
