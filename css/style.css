@@ -147,13 +147,17 @@ font-family: fontAwesome;
 /*forms*/
 .btn{
 	border-radius:0;
-	
+
 }
 
 #register-form,#login-form,#recover-form{
 	margin-top: 5%;
 	margin-bottom: 4%;
 
+}
+
+.page-header{
+	border-bottom: 2px solid #445;
 }
 
 .form-group input, .form-group textarea,.form-group select{
