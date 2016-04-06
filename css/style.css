@@ -1,6 +1,7 @@
 /*body*/
 body{
 	margin:0;
+	background: #fafafa;
 }
 
 body a{
@@ -144,6 +145,10 @@ font-family: fontAwesome;
 
 
 /*forms*/
+.btn{
+	border-radius:0;
+	
+}
 
 #register-form,#login-form,#recover-form{
 	margin-top: 5%;
@@ -151,6 +156,11 @@ font-family: fontAwesome;
 
 }
 
+.form-group input, .form-group textarea,.form-group select{
+	border:0;
+	border-radius: 0;
+	border-bottom: 2px solid #c93;
+}
 
 #register-form  .col-sm-12 ,#login-form  .col-sm-12 ,#recover-form .col-sm-12 {
 	
