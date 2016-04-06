@@ -30,14 +30,14 @@
 	<section class="form-group">
 			<section class="col-md-12">
 	<label>Name</label>
-	  <input type="text" name="name" value="<?php echo $row['first_name'] ?> " placeholder="Posting As?"
+	  <input type="text" name="name" value="<?php echo $row2['owner'] ?> " placeholder="Posting As?"
 	   class="form-control" required>
 			</section>
 	</section>
 	<section class="form-group">
-		<section class="col-md-6"><label>Email</label><input type="text" value="<?php echo $row['email'] ?> " class="form-control"
-		 name="email"  placeholder=""></section>
-		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" value="<?php echo $row['contact'] ?> " 
+		<section class="col-md-6"><label>Email</label><input type="text" value="<?php echo $row2['email'] ?>" class="form-control"
+		 name="email"  placeholder="" disabled></section>
+		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" value="<?php echo $row2['contact'] ?> " 
 		name="contact" placeholder=""></section>
 	</section>
 	<section class="form-group">

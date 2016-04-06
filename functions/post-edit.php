@@ -11,7 +11,7 @@ if($_POST){
 $id=$_GET['id'];
 
  $name=mysqli_escape_string($dbc,$_POST['name']);
-  $email=mysqli_escape_string($dbc,$_POST['email']);
+  // $email=mysqli_escape_string($dbc,$_POST['email']);
   $contact=mysqli_escape_string($dbc,$_POST['contact']);
   $title=mysqli_escape_string($dbc,$_POST['title']);
   $location=mysqli_escape_string($dbc,$_POST['location']);
@@ -36,12 +36,12 @@ if($target_path==="images/"){
 
  
 
-    $query2="UPDATE  properties SET owner='$name', email='$email',contact='$contact', title='$title',location='$location',price='$price',
+    $query2="UPDATE  properties SET owner='$name',contact='$contact', title='$title',location='$location',price='$price',
     description='$description',property_type='$type',bedrooms='$bedroom',gsize='$gsize', size='$size' where email='$user'";
 
     $result2=mysqli_query($dbc,$query2);
 if($result2){
-    echo '<p class="bg-success alert alert-success text-center">Property Listing Successful</p>';}else{
+    echo '<p class="bg-success alert alert-success text-center">Property listing updated Successful</p>';}else{
       echo '<p class="alert alert-danger text-center">Update failed<span class="close pull-right"> <a href="#"> X </span></a></p>';
     }
   }
