@@ -6,8 +6,8 @@
 
   	$email=mysqli_escape_string($dbc,$_POST['email']);
     $contact=$_POST['contact'];
-
-  			$query= "update users SET contact='$contact' , first_name='$fname', email='$email' where email='$user'";
+  $company=mysqli_escape_string($dbc,$_POST['company']);
+  			$query= "update users SET contact='$contact' , first_name='$fname', email='$email', company='$company' where email='$user'";
   			$query2="update properties SET contact='$contact' ,owner='$fname', email='$email' where email='$user'";
   			$result=mysqli_query($dbc,$query);
   			$result2=mysqli_query($dbc,$query2);

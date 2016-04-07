@@ -56,10 +56,8 @@
        mysqli_close($dbc);
 
        }
-     }
-   };
-
-unset($_POST);
+     };
+ 
 
 
  ?>

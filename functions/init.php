@@ -5,7 +5,7 @@ include 'dependencies.php';
 
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
   //database connection_status
- $dbc=mysqli_connect('localhost','root','lollypop28','');
+
  $result=mysqli_query($dbc,$query);
 
 
@@ -29,6 +29,7 @@ $users= "CREATE TABLE IF NOT EXISTS `users` (
   `country` text NOT NULL,
   `contact` varchar(40) NOT NULL,
   `user_type` int(11) NOT NULL DEFAULT '0',
+  `company` varchar(256),
   PRIMARY KEY (`email`)
 ) ";
 
@@ -110,7 +111,7 @@ $insertstatus= "insert into property_status  values('rent'),('lease'),
 ('room sharing')";
  $insertpropstatus=mysqli_query($dbc,$insertstatus);
 
-
+};
 
   
   
