@@ -1,7 +1,12 @@
 <?php //casa ghana setup
 
-include 'dependencies.php';
+@$dbc = mysqli_connect("localhost", "iamkarsoftdb", "lollypop28", "idamu_db");
 
+/* check connection */
+if (!$dbc) {
+@$dbc = mysqli_connect("localhost", "root", "lollypop28", "casa");
+
+}
 
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
   //database connection_status
@@ -115,6 +120,6 @@ $insertstatus= "insert into property_status  values('rent'),('lease'),
 
   
   
-  
+  header("location:../index");
 
  ?>

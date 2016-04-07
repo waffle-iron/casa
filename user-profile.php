@@ -40,7 +40,7 @@
 		</section>
 
 		<section class="form-group">
-			<section class="col-md-6"><label>Company(Optinal)</label><input type="text" class="form-control" name="company" placeholder="" value=""></section>
+			<section class="col-md-6"><label>Company(Optinal)</label><input type="text" class="form-control" name="company" placeholder="" value="<?php echo $row['company'] ?>"></section>
 			<section class="col-md-6"><label>Email</label><input type="text" class="form-control" name="email" placeholder="" value="<?php echo $row['email'] ?>"></section>
 		</section>
 

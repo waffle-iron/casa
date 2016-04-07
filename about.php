@@ -6,8 +6,7 @@
 				<div class="jumbo-text">
 					<h1>About Casa Ghana</h1>
 					<p>
-						Learn about our goals  and what we are offering you as services.
-					</p>
+						Rent, Buy  Sale or even share a property using Casa Ghana. We are trying to smoothing that process with our web portal that will allow users from the 10 regions of Ghana to list their property online.
 				</div>
 			</div>
 

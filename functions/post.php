@@ -28,8 +28,8 @@ if($target_path==="images/"){
   $row=mysqli_num_rows($result);
   if($row!=1){
     $query="insert into properties(owner,email,contact,title,location,
-    price,description,property_id,images,property_type,bedrooms,gsize,size) values('$name','$email','$contact',
-    '$title','$location','$price','$description','$listid','$target_path','$type','$bedroom','$gsize','$size')";
+    price,description,property_id,images,property_type,bedrooms,gsize,size,post_date) values('$name','$email','$contact',
+    '$title','$location','$price','$description','$listid','$target_path','$type','$bedroom','$gsize','$size',now())";
 
     $result=mysqli_query($dbc,$query);
 
