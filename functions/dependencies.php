@@ -35,7 +35,11 @@ $_SESSION=array();
 @$_SESSION['expire'] = time()+5*60;
 }
 
+ //auto delete
+  $query_delete= "DELETE  from classify where post_date <= NOW() - INTERVAL 21 Day";
+      $result_delete=mysqli_query($dbc,$query_delete);
 
+   
 
  //function popover
 function logout_modal(){
@@ -80,3 +84,7 @@ function logout_modal(){
 }
 //calling the logout function
  logout_modal();
+
+
+
+

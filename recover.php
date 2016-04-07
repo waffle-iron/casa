@@ -10,6 +10,8 @@
 
 	</head>
 <body class="becky">
+<?php include'functions/dependencies.php' ?>
+<?php include 'functions/recover.php'; ?>
 <section class="container" id="recover-form">
 		<section class=" col-sm-12 col-md-4 col-md-offset-4">
 <section class="action-icon text-center"><i class="fa fa-user-plus fa-lg fa-4x"></i></section>
@@ -28,7 +30,7 @@
 
 					<p><ul class="list-inline text-center">
 							<p><ul class="list-inline text-center">
-						<li>	<a href="login"><a href="login"><i class="fa fa-sign-in"></i>&nbsp;Log In?</a></li>
+						<li>	<a href="login"><a href="login"><i class="fa fa-sign-in"></i>&nbsp;Log In</a></li>
 						<!-- <li><a href="recover"><i class="fa fa-question"></i>&nbsp;Lost Password</a></li> -->
 						<li><a href="index"><i class="fa fa-home"></i>&nbsp;Home</a></li></ul>
 					</p>

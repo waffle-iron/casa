@@ -10,6 +10,8 @@
 
 	</head>
 <body class="becky">
+<?php include'functions/dependencies.php' ?>
+<?php include 'functions/reset-password.php'; ?>
 <section class="container" id="recover-form">
 		<section class=" col-sm-12 col-md-4 col-md-offset-4">
 <section class="action-icon text-center"><i class="fa fa-key fa-lg fa-4x"></i></section>
