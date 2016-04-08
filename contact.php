@@ -22,9 +22,9 @@
 									<li> <span class="fa fa-phone"></span> 0233 540 920 984 </li>
 									<li><a href="mailto:info@casaghana.com" target="_blank"><span class="fa fa-envelope"></span>&nbsp;info@casaghana.com</a></li>
 									<li><a href="#" target="_blank"></a></li>
-									<ul class="list-inline">
-										<li><a href="#"  target="_blank"><span class="fa fa-facebook"></span></a></li>
-										<li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
+									<ul class="list-inline" style="margin-top:1%">
+										<li><a href="#"  target="_blank"><span class="fa fa-facebook fa-2x"></span></a></li>
+										<li><a href="#" target="_blank"><span class="fa fa-twitter fa-2x"></span></a></li>
 									</ul>
 								</ul>
 							</article>
@@ -32,22 +32,22 @@
 			
 						<section class="col-sm-6 col-md-6">
 						<h3 class="page-header">Contact Form</h3>
-							<form action="" method="" >
+							<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" >
 								
 								<section class="form-group">
 										<label for="">Name</label>
-								<input type="" name="" placeholder="" class="form-control"></section>
+								<input type="text" name="name" placeholder="Kojo Agyemang" class="form-control"></section>
 
 								<section class="form-group">
 											<label for="">Email</label>
-								<input type="" name="" placeholder="" class="form-control"></section>
+								<input type="email" name="email" placeholder="kagyemang@example.com" class="form-control"></section>
 
 								<section class="form-group">
 									<label for="">subject</label>
-								<input type="" name="" placeholder="" class="form-control"></section>
+								<input type="text" name="subject" placeholder="Hello!!" class="form-control"></section>
 								<section class="form-group">
 									<label for="">Message</label>
-								<textarea name="" id="" cols="30" rows="10" class="form-control"></textarea></section>
+								<textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea></section>
 									<section class="col-md-12 form-group"></section>
 		
 			<section class="col-md-12 form-group"> <button class="btn btn-success form-control">Post</button></section>
