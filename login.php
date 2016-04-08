@@ -19,7 +19,7 @@
 </div>
 
 	<div class="container" id="login-form">
-		<div class="user-form property-single col-sm-12 col-md-4 col-md-offset-4">
+		<div class="user-form property-single col-sm-12 col-md-5 col-md-offset-4">
 <div class="action-icon text-center"><i class="fa fa-sign-in fa-lg fa-4x"></i></div>
 <div class="">
 	<h3 class="text-center">Welcome back, login into your casa account.</h3>
@@ -46,7 +46,7 @@
 
 						<div class="form-group col-md-12">
 					<p><ul class="list-inline text-center">
-						<li>	<a href="login"><a href="register"><i class="fa fa-user-plus"></i>&nbsp;Open Account/a></li>
+						<li>	<a href="login"><a href="register"><i class="fa fa-user-plus"></i>&nbsp;Open Account</a></li>
 						<li><a href="recover"><i class="fa fa-key"></i>&nbsp;Lost Password</a></li>
 						<li><a href="index"><i class="fa fa-home"></i>&nbsp;Home</a></li></ul>
 					</p>
