@@ -1,10 +1,10 @@
 <?php //casa ghana setup
 
-@$dbc = mysqli_connect("localhost", "iamkarsoftdb", "lollypop28", "idamu_db");
+@$dbc = mysqli_connect("localhost", "iamkarsoftdb", "lollypop28", "");
 
 /* check connection */
 if (!$dbc) {
-@$dbc = mysqli_connect("localhost", "root", "lollypop28", "casa");
+@$dbc = mysqli_connect("localhost", "root", "lollypop28", "");
 
 }
 
