@@ -1,19 +1,13 @@
 <?php //casa ghana setup
 
-@$dbc = mysqli_connect("localhost", "iamkarsoftdb", "lollypop28", "");
 
-/* check connection */
-if (!$dbc) {
-@$dbc = mysqli_connect("localhost", "root", "lollypop28", "");
-
-}
-
+ $dbc=mysqli_connect('localhost','root','lollypop28','');
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
   //database connection_status
 
  $result=mysqli_query($dbc,$query);
 
-
+include 'dependencies.php';
 
 //storing db after creation of database
 
