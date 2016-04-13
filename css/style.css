@@ -138,6 +138,10 @@ height: 350px;
 background-size: cover !important;
 }
 
+.flexslider{
+	border:0;
+}
+
 
 /*mini map*/
 
