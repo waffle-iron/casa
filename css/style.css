@@ -125,11 +125,19 @@ margin-bottom: 0;margin-top: 2%;
 }
 
 /*carousel*/
-#myCarousel{
-min-height: 300px;
+ #myslider{
+ 	min-height: 300px
+max-height: 330px;
 background: #445;
 margin-top: 0px;
+
 }
+
+#myslider img{
+height: 350px;
+background-size: cover !important;
+}
+
 
 /*mini map*/
 
