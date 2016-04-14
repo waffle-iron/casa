@@ -28,6 +28,7 @@
 				<li ><a href="login"><span class="fa fa-sign-in"></span>&nbsp;Log in</a></li></ul>
 		<?php else: ?>
 				<li><a href="post"><span class="fa fa-list"></span> Post a listing </a></li>
+			
 	<li><a href="user-profile"><span class="fa fa-user"></span>&nbsp;  <?php echo $row['first_name'] ?> </a></li>
 	<li><a data-toggle="modal" data-target="#logout" href="#"><span class="fa fa-sign-out"></span>&nbsp;Log out</a></li>
 		<?php endif; ?>

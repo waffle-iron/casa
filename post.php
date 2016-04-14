@@ -89,7 +89,8 @@
 		<section class="col-md-12">
 			    
                   <label for="price">Add Image</label>
-                	<input type="file" name="uploadedfile" class="form-control " />
+                 <img src="chrome-extension://ndjikafbhihkgcmfpklmfnfhcfefflbo/icon22.png" style="float:right" id="stepsize_0" data-i="0" class="drop-theme-arrows-bounce drop-target">
+                	<input type="file" name="uploadedfile[]" id="uploadedfile" class="form-control" multiple="multiple" />
                 	<input type="hidden" name="MAX_FILE_SIZE" value="100000">
 	
 		</section>
