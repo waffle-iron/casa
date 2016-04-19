@@ -23,6 +23,7 @@ if($target_path==="images/"){
   $target_path="images/no-thumb.png";
 }
 
+
   $query="select * from properties where email='$user'";
   $result=mysqli_query($dbc,$query);
   $row=mysqli_num_rows($result);

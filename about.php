@@ -13,7 +13,7 @@
 </section>
 
 <section class="container">
-<section class="col-sm-6 col-md-6">
+	<section class="col-sm-6 col-md-6">
 							<h3>Free Real Estate Listings</h3>
 							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
 						</section> <!--/service1 -->
@@ -31,6 +31,7 @@
 							<h3>Social Media Listing Sharing</h3>
 							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
 						</section> <!--/service4 -->
+	
 </section>
 
 	

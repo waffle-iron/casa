@@ -19,6 +19,7 @@
 	    <?php include 'functions/redirect.php'; ?>
         <?php if($_POST){
         	include 'functions/post.php';
+        	include 'functions/upload.php';
         	} ?>
    
 </section>
@@ -90,7 +91,7 @@
 			    
                   <label for="price">Add Image</label>
                  <img src="chrome-extension://ndjikafbhihkgcmfpklmfnfhcfefflbo/icon22.png" style="float:right" id="stepsize_0" data-i="0" class="drop-theme-arrows-bounce drop-target">
-                	<input type="file" name="uploadedfile[]" id="uploadedfile" class="form-control" multiple="multiple" />
+                	<input type="file" name="files[]" id="uploadedfile" class="form-control" multiple="" />
                 	<input type="hidden" name="MAX_FILE_SIZE" value="100000">
 	
 		</section>
