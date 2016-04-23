@@ -25,8 +25,10 @@
 									<ul class="list-inline" style="margin-top:1%">
 										<li><a href="#"  target="_blank"><span class="fa fa-facebook fa-2x"></span></a></li>
 										<li><a href="#" target="_blank"><span class="fa fa-twitter fa-2x"></span></a></li>
+
 									</ul>
 								</ul>
+								<p>	You can as well chat with us through our chat system</p>
 							</article>
 						</section> <!--/service1 -->
 			
