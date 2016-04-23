@@ -33,6 +33,11 @@
 						</section> <!--/service1 -->
 			
 						<section class="col-sm-6 col-md-6">
+						<p>
+							<?php if($_POST){
+								include 'functions/contact-form-sc.php';
+								} ?>
+						</p>
 						<h3 class="page-header">Contact Form</h3>
 							<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" >
 								

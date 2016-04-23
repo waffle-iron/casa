@@ -1,4 +1,8 @@
 /*body*/
+
+html{
+	height: 100%;
+}
 body{
 	margin:0;
 	background: #fafafa;
@@ -9,6 +13,7 @@ body a{
 	text-decoration: none;
 	
 }
+
 
 .becky{
 
@@ -232,7 +237,6 @@ footer{
 	clear:both;
 	padding: 2%;
 	color: #fafafa;
-		
 	background: #38424b;
 	color: #fafafa;
 		height: 130px;
