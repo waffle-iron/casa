@@ -91,7 +91,7 @@
 			    
                   <label for="price">Add Image</label>
             
-                	<input type="file" name="uploadedfile" id="uploadedfile" class="form-control" />
+                	<input type="file" name="uploadedfile[]" id="uploadedfile" class="form-control" multiple="" />
                 	<input type="hidden" name="MAX_FILE_SIZE" value="100000">
                 
 	
