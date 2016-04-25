@@ -18,7 +18,7 @@
 			$query="update users SET password='$password' where user_id='$userid'";
 			$result=mysqli_query($dbc,$query);
 
-			echo '<p class="alert alert-success">Your new password has been saved. kindly <a href="signin">Login</a> <span class="close pull-right"> <a href="#"> X </span></p>';
+			echo '<p class="alert alert-success text-center">Your new password has been saved. kindly <a href="signin">Login</a> <span class="close pull-right"> <a href="#"> X </span></p>';
 		}
 	}
 

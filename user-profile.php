@@ -22,7 +22,7 @@
 	<ul class="list-inline">
 		<li><a href="user-profile"> My Profile</a></li>
 		<li><a href="user-listings"> My Listing </a></li>
-		<li ><a href="new-password"> Change Password  </a></li>
+		<li ><a href="new-password?userid=<?php echo $row['user_id'] ?>"> Change Password  </a></li>
 		<li><a href=""> Request Agent Account </a></li>
 	</ul>
 </section>

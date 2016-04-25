@@ -26,6 +26,7 @@ $username=$row['first_name'];
 
 
 
+
 // terminating sessions
 if(time() > @$_SESSION['expire']){
 session_destroy();
