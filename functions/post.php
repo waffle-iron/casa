@@ -12,12 +12,12 @@
         $size=mysqli_escape_string($dbc,$_POST['size']);
   $description=mysqli_escape_string($dbc,$_POST['description']);
     // $status=mysqli_escape_string($dbc,$_POST['status']); 
-       $images=mysqli_escape_string($dbc,implode(',',$_FILES['uploadedfile']['name'])) ;
+       $images=mysqli_escape_string($dbc,$_FILES['uploadedfile']) ;
 
   $listid=uniqid(rand(0,10000));
   $target_path="images/";
-$target_path=$target_path.basename(implode(',',$_FILES['uploadedfile']['name']));
-if(move_uploaded_file(implode(',',$_FILES['uploadedfile']['tmp_name']), $target_path)) {
+$target_path=$target_path.basename($_FILES['uploadedfile']['name']);
+if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
 
 }
 
