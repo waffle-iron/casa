@@ -12,7 +12,7 @@
         $size=mysqli_escape_string($dbc,$_POST['size']);
   $description=mysqli_escape_string($dbc,$_POST['description']);
     // $status=mysqli_escape_string($dbc,$_POST['status']); 
-       $images=mysqli_escape_string($dbc,$_FILES['uploadedfile']) ;
+
 
   $listid=uniqid(rand(0,10000));
   $target_path="images/";
@@ -32,7 +32,7 @@ if($target_path==="images/"){
   if($row!=1){
     $query="insert into properties(owner,email,contact,title,location,
     price,description,property_id,images,property_type,bedrooms,gsize,size,post_date) values('$name','$email','$contact',
-    '$title','$location','$price','$description','$listid','$images','$type','$bedroom','$gsize','$size',now())";
+    '$title','$location','$price','$description','$listid','$target_path','$type','$bedroom','$gsize','$size',now())";
 
     $result=mysqli_query($dbc,$query);
 
