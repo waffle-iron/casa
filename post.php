@@ -29,12 +29,12 @@
 	<section class="form-group">
 			<section class="col-md-12">
 	<label>Name</label>
-	  <input type="text" name="name" value="<?php echo $row['first_name'] ?>" placeholder="Posting As?" class="form-control" required>
+	  <input type="text" name="name" value="<?php echo $row['first_name'] ?>" placeholder="Posting As?" class="form-control" required autofocus>
 			</section>
 	</section>
 	<section class="form-group">
-		<section class="col-md-6"><label>Email</label><input type="text" class="form-control" name="email" placeholder=""></section>
-		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" name="contact" placeholder=""></section>
+		<section class="col-md-6"><label>Email</label><input type="text" class="form-control" value="<?php echo $row['email'] ?>" name="email" placeholder=""></section>
+		<section class="col-md-6"><label>Contact</label><input type="text" class="form-control" value="<?php echo $row['contact'] ?>" name="contact" placeholder=""></section>
 	</section>
 	<section class="form-group">
 		<section class="col-md-6"><label>Title</label><input type="text" class="form-control" name="title" placeholder="Give your listing a title"></section>
