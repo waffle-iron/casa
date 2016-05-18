@@ -1,23 +1,22 @@
 <?php include 'header.php'; ?>
 
-<section class="row" id="myslider">
-      <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <img src="images/hero.jpg"  class="img-responsive" />
-                </li>
-                <li>
-                  <img src="images/iak-logo.png" class="img-responsive" />
-                </li>
-                <li>
-                  <img src="" />
-                </li>
-                <li>
-                  <img src="" />
-                </li>
-              </ul>
-            </div>
-</section><!-- /carousel -->
+
+<section class="row jumbotron focus">
+  
+      <div class="containter">
+        <div class="jumbo-text">
+          <h2 class="text-center">Built with Real Estate Agents and Companies in mind!!!</h2>
+        
+          <ul class="list-inline text-center" style="margin-top:5%">
+            <li><a href="" class="btn btn-lg btn-danger">Register</a></li>
+            
+          </ul>
+          
+        </div>
+      </div>
+
+</section>
+
 
 
 <section class="row">
