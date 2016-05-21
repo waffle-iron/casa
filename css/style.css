@@ -299,3 +299,12 @@ footer a:hover , header a:hover{
 	padding: 3%;
 	text-align: center
 }
+
+.icon{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.features{
+	padding: 2%
+}
