@@ -13,14 +13,14 @@
 <body>
 
 <!-- includes -->
-<?php include 'functions/dependencies.php' ?>
+<?php @include 'functions/dependencies.php' ?>
 <!-- /includes -->
 <section id="wrapper" class="row">
 
 		<header class="navbar-static-top">
 
 			<ul class="list-inline">
-				<li class="text-left hidden-xs">Report A Bug</li>
+			<!-- 	<li class="text-left hidden-xs">Report A Bug</li> -->
 				
 				<ul class=" list-inline pull-right">
 <?php if(!isset($user)) : ?>

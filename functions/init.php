@@ -1,7 +1,10 @@
 <?php //casa ghana setup
 
+@$dbc = mysqli_connect("localhost", "kofiwork_karsoft", "lollypop28:)", "");
+// @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
- $dbc=mysqli_connect('localhost','root','lollypop28','');
+/* check connection */
+
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
   //database connection_status
 
@@ -114,6 +117,6 @@ $insertstatus= "insert into property_status  values('rent'),('lease'),
 
   
   
-  header("location:../index");
+ exit(header("location:../index"));
 
  ?>
