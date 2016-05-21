@@ -301,9 +301,22 @@ footer a:hover , header a:hover{
 }
 
 .icon{
-	padding-left: 15%;
-	padding-right: 15%;
+	padding: 7%;
+	border: 1px  solid #fafafa ;
+	border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+
 }
+.icon-dark{
+	padding: 7%;
+	border: 1px  solid #445;
+	border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+
+}
+
 
 .features{
 	padding: 2%
