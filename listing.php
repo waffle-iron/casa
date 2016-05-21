@@ -3,16 +3,36 @@
 
 <section class="row jumbotron focus">
   
-      <div class="containter">
-        <div class="jumbo-text">
-          <h2 class="text-center">Built with Real Estate Agents and Companies in mind!!!</h2>
-        
-          <ul class="list-inline text-center" style="margin-top:5%">
-            <li><a href="" class="btn btn-lg btn-danger">Register</a></li>
-            
-          </ul>
-          
-        </div>
+      <div class="containter listings-summary">
+      		<div class="col-md-12">
+      			<div class="col-md-3">
+      			<span class="fa fa-question fa-3x"></span>
+      				<div class="listing-sum-content">
+      					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est qui id sequi quaerat fugit necessitatibus cupiditate expedita corporis nemo fugiat, ea, amet eum.
+      				</div>
+      			</div>
+
+      			<div class="col-md-3">
+      			<span class="fa fa-question fa-3x"></span>
+      				<div class="listing-sum-content">
+      					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident officiis facilis excepturi nisi corrupti deleniti quaerat, cupiditate rem itaque distinctio laboriosam illum dolorum!
+      				</div>
+      			</div>
+
+      			<div class="col-md-3">
+      			<span class="fa fa-question fa-3x"></span>
+      				<div class="listing-sum-content">
+      					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ex asperiores rem, hic quasi blanditiis, doloremque pariatur eaque ipsa optio cupiditate deleniti molestiae.
+      				</div>
+      			</div>
+
+      			<div class="col-md-3">
+      			<span class="fa fa-question fa-3x"></span>
+      				<div class="listing-sum-content">
+      					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde fuga consequatur, ipsam rem temporibus, maiores ad aliquam numquam molestias, soluta non eaque veniam.
+      				</div>
+      			</div>
+      		</div>
       </div>
 
 </section>

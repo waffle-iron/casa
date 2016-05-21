@@ -2,14 +2,13 @@
 
 // database connection
 /* connect database test */
-@$dbc = mysqli_connect("localhost", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
+
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
-/* check connection */
-if (!$dbc) {
+
 @$dbc = mysqli_connect("localhost", "root", "lollypop28", "casa");
 
-}
+
 //sessions
 session_start();
 

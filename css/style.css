@@ -293,3 +293,9 @@ footer a:hover , header a:hover{
 .agent-info{
 	margin-top: 2%;
 }
+
+
+.listings-summary{
+	padding: 3%;
+	text-align: center
+}

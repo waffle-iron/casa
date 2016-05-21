@@ -4,10 +4,7 @@
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
 /* check connection */
-if (!$dbc) {
-@$dbc = mysqli_connect("localhost", "root", "lollypop28", "");
 
-}
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
   //database connection_status
 
