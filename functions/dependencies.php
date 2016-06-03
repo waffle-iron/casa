@@ -6,7 +6,7 @@
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
 
-@$dbc = mysqli_connect("localhost", "root", "lollypop28", "casa");
+@$dbc= new PDO("mysql:host=localhost;dbname=casa;port=3306","root","lollypop28");
 
 
 //sessions
@@ -17,7 +17,7 @@ session_start();
 
 
 
-$query="select * from users where email='$user'";
+$result->query("select * from users where email='$user'");
 $result=mysqli_query($dbc,$query);
 $row=mysqli_fetch_array($result);
 $useremail=$row['email'];

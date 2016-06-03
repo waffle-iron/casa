@@ -1,6 +1,6 @@
 <?php //casa ghana setup
 
-@$dbc = mysqli_connect("localhost", "kofiwork_karsoft", "lollypop28:)", "");
+@$dbc= new PDO("mysql:host=localhost;dbname=casa;port=3306","root","lollypop28");
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
 /* check connection */
