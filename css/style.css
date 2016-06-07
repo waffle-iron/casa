@@ -7,12 +7,19 @@ body{
 	margin:0;
 	background: #fafafa;
 	overflow-x:hidden;
+
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+
 }
 
 body a{
 	text-decoration: none;
 	
 }
+
+
 
 
 .becky{
@@ -230,6 +237,11 @@ label{
 	margin-right: 5%;
 }
 
+.jumbotron .btn{
+	border-radius: 18px;
+	
+}
+
 
 /*footer*/
 footer{
@@ -239,7 +251,10 @@ footer{
 	color: #fafafa;
 	background: #38424b;
 	color: #fafafa;
-		height: 130px;
+			display:flex;
+			flex-direction: row;
+
+	flex:1;
 	font-weight: bold;
 	position: relative;
 	clear: both;
@@ -250,6 +265,9 @@ z-index:999999;
 
 }
 
+footer section{
+	flex: 1;
+}
 
 footer a{
 	color: #fafafa;

@@ -1,4 +1,5 @@
 
+</section>
 <!-- adding lightbox to project -->
 
 <footer>
@@ -60,7 +61,7 @@ loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure"
 olark.identify('5322-224-10-6448');/*]]>*/</script><noscript><a href="https://www.olark.com/site/5322-224-10-6448/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
 
-</section>
+
 
 </body>
 </html>

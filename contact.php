@@ -28,7 +28,7 @@
 
 									</ul>
 								</ul>
-								<p>	You can as well chat with us through our chat system</p>
+								<p>	You can also chat with us through our chat system</p>
 							</article>
 						</section> <!--/service1 -->
 			
