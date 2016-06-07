@@ -17,7 +17,7 @@
 <!-- /includes -->
 <section id="wrapper" class="row">
 
-		<header class="navbar-static-top">
+		<header class="navbar-static-top row">
 
 			<ul class="list-inline">
 			<!-- 	<li class="text-left hidden-xs">Report A Bug</li> -->
