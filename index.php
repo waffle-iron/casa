@@ -4,13 +4,21 @@
 	
 			<div class="containter">
 				<div class="jumbo-text">
-					<h2 class="text-center">Awesomely built for Real Estate Agents and Companies!</h2>
+					<h2 class="text-center">Find Your Home</h2>
+			<form role="form" class="inline-form text-center search">
+
+				<section class="col-md-8">
+					<section class="form-group">
+						<input type="text" class="form-control" placeholder="What are you looking for?">
+					</section>
+				</section>
 				
-					<ul class="list-inline text-center" style="margin-top:5%">
-						<li><a href="register" class="btn btn-lg btn-primary">Register</a></li>
-						
-					</ul>
-					
+				<section class="col-md-4">
+					<section class="form-group">
+						<button class="btn btn-danger br-no form-control">Search</button>		
+					</section>
+				</section>
+			</form>
 				</div>
 			</div>
 

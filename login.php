@@ -15,7 +15,7 @@
 <!-- /includes -->
 <div class=" error">
 	<?php if($_POST){ include 'functions/login-sc.php'; };
-	unset($_POST); ?>
+ ?>
 </div>
 
 	<div class="container" id="login-form">

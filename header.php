@@ -20,7 +20,7 @@
 		<header class="navbar-static-top row">
 
 			<ul class="list-inline">
-			<!-- 	<li class="text-left hidden-xs">Report A Bug</li> -->
+				<li class="text-left hidden-xs">Built with Real Estate Agents and Companies in mind!</li>
 				
 				<ul class=" list-inline pull-right">
 <?php if(!isset($user)) : ?>

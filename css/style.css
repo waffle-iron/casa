@@ -28,6 +28,39 @@ height: auto;
   min-height: 100%;
 }
 
+
+/*search*/
+
+.search{
+
+
+
+}
+
+.search > .form-group{
+
+	
+}
+
+.search >input{
+
+
+}
+
+.search > .btn{
+	
+	width: auto;
+
+}
+
+.br-no{
+	border-radius: 0;
+	border: 0;
+	z-index: 999;
+}
+
+
+/**/
 a{
 	color: #445;
 }
@@ -232,10 +265,6 @@ label{
 	margin-right: 5%;
 }
 
-.jumbotron .btn{
-	border-radius: 18px;
-	
-}
 
 
 /*footer*/
