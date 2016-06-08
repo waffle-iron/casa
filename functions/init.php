@@ -1,4 +1,4 @@
-<?php //casa ghana setup
+<?php //Efie ghana setup
 
 @$dbc = mysqli_connect("localhost", "kofiwork_karsoft", "lollypop28:)", "");
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");

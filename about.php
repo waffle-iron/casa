@@ -4,9 +4,9 @@
 	
 			<div class="containter">
 				<div class="jumbo-text">
-					<h1>About Casa Ghana</h1>
+					<h1>About Efie ghana</h1>
 					<p>
-						Rent, Buy  Sale or even share a property using Casa Ghana. We are trying to smoothing that process with our web portal that will allow users from the 10 regions of Ghana to list their property online.
+						Rent, Buy  Sale or even share a property using Efie ghana. We are trying to smoothing that process with our web portal that will allow users from the 10 regions of Ghana to list their property online.
 				</div>
 			</div>
 

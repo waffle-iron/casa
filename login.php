@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Casa Ghana</title>
+		<title>Efie ghana</title>
 
 	</head>
 <body  class="becky">
@@ -22,7 +22,7 @@
 		<div class="user-form property-single col-sm-12 col-md-5 col-md-offset-4">
 <div class="action-icon text-center"><i class="fa fa-sign-in fa-lg fa-4x"></i></div>
 <div class="">
-	<h3 class="text-center">Welcome back, login into your casa account.</h3>
+	<h3 class="text-center">Welcome back, login into your Efie account.</h3>
 </div>
 			<form class="" role="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
 					<div class="form-group">

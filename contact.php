@@ -20,7 +20,7 @@
 								<h3 class="page-header">Contact us</h3>
 								<ul>
 									<li> <span class="fa fa-phone"></span> 0233 540 920 984 </li>
-									<li><a href="mailto:info@casaghana.com" target="_blank"><span class="fa fa-envelope"></span>&nbsp;info@casaghana.com</a></li>
+									<li><a href="mailto:info@Efiegh.com" target="_blank"><span class="fa fa-envelope"></span>&nbsp;info@Efiegh.com</a></li>
 									<li><a href="#" target="_blank"></a></li>
 									<ul class="list-inline" style="margin-top:1%">
 										<li><a href="#"  target="_blank"><span class="fa fa-facebook fa-2x"></span></a></li>

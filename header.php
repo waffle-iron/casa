@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Casa Ghana</title>
+		<title>Efie ghana</title>
 
 	</head>
 <body>
@@ -40,7 +40,7 @@
 	<nav class="navbar "  >
 	 	<div class="navbar-header">
 	 		<div class="navbar-brand">
-	 			Casa Ghana
+	 			Efie ghana
 	 		</div> 
 
 	 		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">

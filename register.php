@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Casa Ghana</title>
+		<title>Efie ghana</title>
 
 	</head>
 <body  class="becky">

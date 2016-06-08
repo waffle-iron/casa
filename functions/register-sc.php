@@ -34,16 +34,16 @@
 
 
        //from
-       $header="From: casaghana.com";
+       $header="From: Efiegh.com";
 
        //My Message
-       $message="It's an honor to have you as a new member of the portal.We have been working to build casaghana.com\r\n";
-       $message.="casaghana.com is a web portal that gives opportunity for ghanaians to list their property. \r\n We work day and night to keep it original, safe and accessible to our users. \r\n
-       To begin, please verify your email. This will ensure you can sign into casaghana.com \r\n
+       $message="It's an honor to have you as a new member of the portal.We have been working to build Efiegh.com\r\n";
+       $message.="Efiegh.com is a web portal that gives opportunity for ghanaians to list their property. \r\n We work day and night to keep it original, safe and accessible to our users. \r\n
+       To begin, please verify your email. This will ensure you can sign into Efiegh.com \r\n
        ";
 
        $message.="click on this link to activate your account\r\n";
-       $message.="http://casaghana.kofi.work/confirmation?passkey=$confirm_code";
+       $message.="http://Efiegh.com/confirmation?passkey=$confirm_code";
 
        //sending the mail
        $sentmail=mail($to,$subject,$message,$header);
