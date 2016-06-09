@@ -31,7 +31,7 @@
 			//My Message
 			$message="Please follow this link  \r\n";
 			$message.="click on this link to set a new password for  your account\r\n";
-			$message.="http://www.idamou.com/new-password?userid=$userid";
+			$message.="http://www.efiegh.com/new-password?userid=$userid";
 
 			//sending the mail
 			$sentmail=mail($to,$subject,$message,$header);

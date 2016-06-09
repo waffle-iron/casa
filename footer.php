@@ -10,6 +10,7 @@
 				<ul class="list-inline">
 				<li><a href="about">About</a></li>
 				<li><a href="terms">Terms & Conditions</a></li>
+						<li><a href="privacy">Privacy</a></li>
 				<!-- <li><a href="">We <i class="fa fa-heart" style="color:#ee3853"></i>&nbsp;Feedback</a></li>
 			 -->
 
