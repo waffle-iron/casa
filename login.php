@@ -41,7 +41,7 @@
 
 
 					<div class="form-group">
-						<button class="btn btn-primary btn-block"><i class="fa fa-sign-in"></i> Login</button>
+						<button class="btn btn-primary btn-block" type="submit"><i class="fa fa-sign-in"></i> Login</button>
 					</div>
 
 						<div class="form-group col-md-12">

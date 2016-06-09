@@ -13,28 +13,30 @@
 </section>
 
 <section class="container">
-	<section class="col-sm-6 col-md-6 text-center features">
-	<span class="fa fa-2x fa-usd  icon-dark"></span>
+	<section class="col-sm-6 col-md-6 text-center  features">
+						<span class="fa fa-2x icon-dark fa-usd "></span>
 							<h3>Free Real Estate Listings</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
-						</section> <!--/service1 -->
+							<article>Efie gives you a platform for you to list your real estate property either for rent or sales</article>
+						</section><!--/service1 -->
 			
 						<section class="col-sm-6 col-md-6 text-center features">
-						<span class="fa fa-2x fa-user  icon-dark"></span>
-							<h3>Individual Accounts</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+						<span class="fa fa-2x icon-dark fa-user "></span>
+							<h3>Various Type of Accounts</h3>
+							<article>With our various type of accounts, we give you the opportunity to list one property as an individual or either list multiple estates as an agent or a real estate company</article>
 						</section> <!--/service2 -->
-						<section class="col-sm-6 col-md-6 text-center features">
-						<span class="fa fa-2x fa-bullhorn icon-dark"></span>
+
+						
+							<section class="col-sm-6 col-md-6 text-center features">
+						<span class="fa fa-2x icon-dark fa-bullhorn "></span>
 							<h3>Nation Wide Visibility</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<article>Listings on Efie platform are based on the 10 regions of Ghana, from the Greater accra region up to the Northern Region.</article>
 						</section> <!--/service3 -->
-			
-						<section class="col-sm-6 col-md-6 text-center features">
-						<span class="fa fa-2x fa-share  icon-dark"></span>
+			<section class="col-sm-6 col-md-6 text-center features">
+						<span class="fa fa-2x icon-dark fa-share"></span>
 							<h3>Social Media Listing Sharing</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<article>Our platform makes it easy to share your listings or even other interesting listing with your friends through out various social media platforms</article>
 						</section> <!--/service4 -->
+			
 	
 </section>
 

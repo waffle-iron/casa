@@ -19,11 +19,12 @@ if($rows!=1){
 </div>
 <?php
 }else{
+	header('location:index.php');
 		@session_start();
 	$_SESSION['userid']=$email;
 	@$_SESSION['expire'] = time()+5*60;
 
-header('location:index.php');
+
 
 };
 

@@ -9,6 +9,7 @@
 					<h1>Privacy Policies</h1>
 					<p>
 						Privacy policies you need to know about Efie Ghana
+					</p>
 				</div>
 			</div>
 

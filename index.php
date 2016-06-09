@@ -4,8 +4,10 @@
 	
 			<div class="containter">
 				<div class="jumbo-text">
-					<h2 class="text-center">Find Your Home</h2>
-			<form role="form" class="inline-form text-center search">
+					<h2 class="text-center">Efie means Home, Let's help you find your new place.</h2>
+		
+						<br><br><a href="listing" style="width:200px;" class="btn btn-success center-block">Browse Listings</a>
+<!-- 			<form role="form" class="inline-form text-center search">
 
 				<section class="col-md-8">
 					<section class="form-group">
@@ -18,7 +20,7 @@
 						<button class="btn btn-danger br-no form-control">Search</button>		
 					</section>
 				</section>
-			</form>
+			</form> -->
 				</div>
 			</div>
 
@@ -34,24 +36,25 @@
 						<section class="col-sm-6 col-md-6 text-center  features">
 						<span class="fa fa-2x icon-dark fa-usd "></span>
 							<h3>Free Real Estate Listings</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<article>Efie gives you a platform for you to list your real estate property either for rent or sales</article>
 						</section> <!--/service1 -->
 			
 						<section class="col-sm-6 col-md-6 text-center features">
 						<span class="fa fa-2x icon-dark fa-user "></span>
-							<h3>Individual Accounts</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<h3>Various Type of Accounts</h3>
+							<article>With our various type of accounts, we give you the opportunity to list one property as an individual or either list multiple estates as an agent or a real estate company</article>
 						</section> <!--/service2 -->
+						
 						<section class="col-sm-6 col-md-6 text-center features">
 						<span class="fa fa-2x icon-dark fa-bullhorn "></span>
 							<h3>Nation Wide Visibility</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<article>Listings on Efie platform are based on the 10 regions of Ghana, from the Greater accra region up to the Northern Region.</article>
 						</section> <!--/service3 -->
 			
 						<section class="col-sm-6 col-md-6 text-center features">
 						<span class="fa fa-2x icon-dark fa-share"></span>
 							<h3>Social Media Listing Sharing</h3>
-							<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae quos natus numquam vero illum eligendi libero praesentium nihil eaque porro placeat molestias, veritatis cumque facilis similique voluptatibus laudantium et earum! Tenetur vero perspiciatis eum quis, totam temporibus explicabo dolorum nesciunt. Impedit, tempore.</article>
+							<article>Our platform makes it easy to share your listings or even other interesting listing with your friends through out various social media platforms</article>
 						</section> <!--/service4 -->
 			
 			</section>
