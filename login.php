@@ -1,8 +1,3 @@
-
-	<?php include 'functions/login-sc.php'; 
- ?>
-
-
 <!doctype html>
 <html lang="en">
 	<head>
@@ -17,7 +12,10 @@
 <body  class="becky">
 
 <!-- /includes -->
-
+<div class=" error">
+	<?php include 'functions/login-sc.php'; 
+ ?>
+</div>
 
 	<div class="container" id="login-form">
 		<div class="user-form property-single col-sm-12 col-md-5 col-md-offset-4">
