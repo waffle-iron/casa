@@ -1,3 +1,11 @@
+
+	<?php
+include 'functions/dependencies.php' ;
+include 'session.php';
+include 'session-expire.php';
+include 'logout-modal.php';
+ ?>
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -13,7 +21,7 @@
 <body>
 
 <!-- includes -->
-<?php @include 'functions/dependencies.php' ?>
+
 <!-- /includes -->
 <section id="wrapper" class="row">
 
