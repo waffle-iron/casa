@@ -13,10 +13,10 @@
 <body  class="becky">
 
 <!-- /includes -->
-<div class=" error">
-	<?php include 'functions/login-sc.php'; 
+<!-- <div class=" error">
+	<?php //include 'functions/login-sc.php'; 
  ?>
-</div>
+</div> -->
 
 	<div class="container" id="login-form">
 		<div class="user-form property-single col-sm-12 col-md-5 col-md-offset-4">
@@ -24,7 +24,13 @@
 <div class="">
 	<h3 class="text-center">Welcome back, login into your Efie account.</h3>
 </div>
+<<<<<<< HEAD
 			<form class="" role="form" action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
+||||||| merged common ancestors
+			<form class="" role="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+=======
+			<form class="" role="form" action="functions/login-sc.php" method="post">
+>>>>>>> 1d5c4cebb181c97b19be07ca81ec3bb3cecef47b
 					<div class="form-group">
 					<label>Email</label>
 						<input type="text" name="email" required class="form-control">

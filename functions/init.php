@@ -3,6 +3,13 @@
 @$dbc = mysqli_connect("localhost", "kofiwork_karsoft", "lollypop28:)", "");
 // @$dbc = mysqli_connect("kofiwork", "kofiwork_karsoft", "lollypop28:)", "kofiwork_banditconsult");
 
+if (!$dbc) {
+    echo "Error: Unable to connect to MySQL." . PHP_EOL;
+    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+    exit;
+}
+
 /* check connection */
 
  $query="CREATE DATABASE IF NOT EXISTS `casa`";
