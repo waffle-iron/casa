@@ -1,5 +1,4 @@
-
-	<?php
+<?php
 include 'functions/dependencies.php' ;
 include 'session.php';
 include 'session-expire.php';
