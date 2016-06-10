@@ -1,5 +1,5 @@
 <?php
-include 'functions/dependencies.php';
+
 session_start();
 
 //session in seconds

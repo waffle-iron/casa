@@ -50,10 +50,9 @@ $fetch=mysqli_fetch_array($result);
 	$_SESSION['userid']=$email;
 	@$_SESSION['expire'] = time()+5*60;
 
-		echo '<p class="alert alert-success text-center">Welcome &nbsp;'.$first_name .'&nbsp; '.$last_name.'</p>';
-		ob_start();
+	
 		header("Location:index.php");
-		ob_end_flush();
+		
 		exit();
 			
 			}else{echo '<p class="alert alert-danger text-center">Wrong Email / Password!</p>';}

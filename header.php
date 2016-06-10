@@ -38,7 +38,7 @@ include 'logout-modal.php';
 				<li><a href="post"><span class="fa fa-list"></span> Post a listing </a></li>
 			
 	<li><a href="user-profile"><span class="fa fa-user"></span>&nbsp;  <?php echo $row['first_name'] ?> </a></li>
-	<li><a data-toggle="modal" data-target="#logout" href="#"><span class="fa fa-sign-out"></span>&nbsp;Log out</a></li>
+	<li><a data-toggle="modal" data-target="#logout" href="logout"><span class="fa fa-sign-out"></span>&nbsp;Log out</a></li>
 		<?php endif; ?>
 			</ul>
 		</header><!-- /.user-action -->
